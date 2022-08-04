@@ -90,7 +90,7 @@ const gamesArr = [
      {
     name: `Bottle Flip 3d`,
     filter: [``],
-    link: `https://tinyurl.com/bawttleflip'`
+    link: `https://tinyurl.com/bawttleflip`
   },
      {
     name: `Crossy Road`,
