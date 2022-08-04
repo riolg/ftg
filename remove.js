@@ -1,3 +1,3 @@
-function removeTab() {
+function cloakTab() {
 	window.location.replace('https://classroom.google.com/h'); 
 };
