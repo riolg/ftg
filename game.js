@@ -37,6 +37,11 @@ const gamesArr = [
     filter: [``],
     link: `https://tiny.one/basketballstars`
   },
+    {
+    name: `Burrito Bison`,
+    filter: [``],
+    link: `https://tinyurl.com/burritoeby`
+  },
    {
     name: `Bloons Player Pack 2`,
     filter: [``],
