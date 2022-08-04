@@ -148,6 +148,11 @@ const gamesArr = [
     link: `https://tinyurl.com/retro-bole2`
   },
      {
+    name: `Pixel Combat 2`,
+    filter: [``],
+    link: `https://tinyurl.com/pixllcomb`
+  },
+     {
     name: `Roblox`,
     filter: [``],
     link: `https://tinyurl.com/rowblocks`
