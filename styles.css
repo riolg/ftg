@@ -100,6 +100,14 @@ nav ul {
 	padding: 0;
 	list-style: none;
 }
+.container {
+	width: 100%;
+}
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
 nav li {
 	display: inline-block;
 	margin: 0 90px;
