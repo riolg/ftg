@@ -88,6 +88,11 @@ const gamesArr = [
     link: `https://images-docs-opensocial.googleusercontent.com/gadgets/ifr?quot&url=https://sites.google.com/site/v114lr8k/cookieclicker.xml'`
   },
      {
+    name: `Bottle Flip 3d`,
+    filter: [``],
+    link: `https://tinyurl.com/bawtleflip'`
+  },
+     {
     name: `Crossy Road`,
     filter: [``],
     link: `https://tinyurl.com/crossy-rode`
