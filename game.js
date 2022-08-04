@@ -238,6 +238,11 @@ const gamesArr = [
     link: `https://fellicht.nl/games/tower-defense/`
   },
      {
+    name: `Modern Blocky Painting`,
+    filter: [``],
+    link: `https://tinyurl.com/modblopai`
+  },
+     {
     name: `Tunnel Rush`,
     filter: [``],
     link: `https://tinyurl.com/tunelrush`
