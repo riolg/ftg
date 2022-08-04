@@ -271,6 +271,11 @@ const gamesArr = [
     name: `Tube Jumpers`,
     filter: [``],
     link: `https://tinyurl.com/legendz02`
+  },
+       {
+    name: `Zombs Royale`,
+    filter: [``],
+    link: `https://tinyurl.com/zommy`
   }
   
 ];
