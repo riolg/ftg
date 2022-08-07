@@ -147,3 +147,7 @@ function searchGames() {
     }
   }
 }
+// panic button
+window.addEventListener('keydown', (e) => {
+    if (e.key == '`') window.location.replace('https://classroom.google.com/h');
+}, false);
