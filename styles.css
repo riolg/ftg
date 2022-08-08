@@ -190,3 +190,12 @@ nav li:hover header {
   margin-right: auto;
   width: 120px;
 }
+#home {
+	display: "block";
+}
+#games {
+	display: "none";
+}
+#settings {
+	display: "none";
+}
