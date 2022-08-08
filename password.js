@@ -32,5 +32,5 @@ function openGames() {
 function openSettings() {
 		document.getElementById('home').style.display = 'none'; 
 		document.getElementById('games').style.display = 'none';
-		document.getElementById('settings').style.display = 'settings';
+		document.getElementById('settings').style.display = 'block';
 };
