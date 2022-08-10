@@ -67,6 +67,9 @@ h4 {
   color: #fff !important;
   background-color: #f0f0f0 !important;
 }
+.gameListText {
+	font-size: 40;
+}
 table,
 th,
 td {
