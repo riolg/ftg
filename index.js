@@ -149,5 +149,5 @@ function searchGames() {
 }
 // panic button
 window.addEventListener('keydown', (e) => {
-    if (e.key == 'escapeKey') window.location.replace('https://classroom.google.com/h');
+    if (e.key == 'escKey') window.location.replace('https://classroom.google.com/h');
 }, false);
