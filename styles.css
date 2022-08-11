@@ -57,11 +57,11 @@ h4 {
 }
 .rio-hover-lightblue:hover {
   color: #000 !important;
-  background-color: #000 !important;
+  background-color: #f0f0f0 !important;
 }
 .rio-hover-black:hover {
   color: #000 !important;
-  background-color: ##f0f0f0 !important;
+  background-color: #000 !important;
 }
 .gameListText {
   font-size: 40;
