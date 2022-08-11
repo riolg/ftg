@@ -120,7 +120,7 @@ const gamesArr = [
      {
     name: `Minecraft`,
     filter: [``],
-    link: `https://www.officialixlnebula.gq/`
+    link: `https://eaglercraft.me/`
   },
      {
     name: `Minecraft Singleplayer`,
