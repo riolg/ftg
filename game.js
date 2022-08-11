@@ -170,15 +170,10 @@ const gamesArr = [
      {
     name: `Slope Link 2`,
     filter: [``],
-    link: `https://r27bbc.csb.app`
-  },
-     {
-    name: `Slope Link 3`,
-    filter: [``],
     link: `https://s4r3hm.csb.app/`
   },
      {
-    name: `Slope Link 4`,
+    name: `Slope Link 3`,
     filter: [``],
     link: `https://advanced-channeler.02.gz-associates.com/?t=tmm-slope`
   },
