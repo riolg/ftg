@@ -141,13 +141,13 @@ window.addEventListener('keydown', (e) => {
     if (e.key == 'Escape') window.location.replace('https://classroom.google.com/h');
 }, false);
 
-let keys = {
+/*let keys = {
   Control: false,
   b: false,
 };
 
 
-/*addEventListener("keydown", (event) => {
+addEventListener("keydown", (event) => {
 
   if (event.key === "Control") {
     keys.a = true;
