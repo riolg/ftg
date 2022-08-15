@@ -147,7 +147,7 @@ let keys = {
 };
 
 
-addEventListener("keydown", (event) => {
+/*addEventListener("keydown", (event) => {
 
   if (event.key === "Control") {
     keys.a = true;
@@ -158,6 +158,6 @@ addEventListener("keydown", (event) => {
 
 if(keys.Control && keys.b){
   openBackup()
-}
+}*/
 
 
