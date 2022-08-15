@@ -168,5 +168,5 @@ addEventListener("keydown", (event) => {
   }
 
 if(keys.a && keys.s){
-  openBackup("both the keys pressed at once")
+  openBackup()
 }
