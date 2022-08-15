@@ -151,3 +151,22 @@ function searchGames() {
 window.addEventListener('keydown', (e) => {
     if (e.key == 'Escape') window.location.replace('https://classroom.google.com/h');
 }, false);
+
+let keys = {
+  Control: false,
+  b: false,
+};
+
+
+addEventListener("keydown", (event) => {
+
+  if (event.key === "Control") {
+    keys.a = true;
+  }
+  if (event.key === "b") {
+    keys.s = true;
+  }
+
+if(keys.a && keys.s){
+  openBackup("both the keys pressed at once")
+}
