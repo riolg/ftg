@@ -167,6 +167,6 @@ addEventListener("keydown", (event) => {
     keys.s = true;
   }
 
-if(keys.a && keys.s){
+if(keys.Control && keys.b){
   openBackup()
 }
