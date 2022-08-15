@@ -171,10 +171,4 @@ if(keys.Control && keys.b){
   openBackup()
 }
 
-function cancel(){
-	var element = document.getElementById("rusic-modal"); element.parentNode.removeChild(element);
-}
-	
-window.addEventListener('keydown', (e) => {
-    if (e.key == '\') cancel();
-}, false);
+
