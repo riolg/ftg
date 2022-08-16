@@ -85,7 +85,7 @@ const gamesArr = [
      {
     name: `Cookie Clicker Link 2`,
     filter: [``],
-    link: `https://images-docs-opensocial.googleusercontent.com/gadgets/ifr?quot&url=https://sites.google.com/site/v114lr8k/cookieclicker.xml'`
+    link: `https://images-docs-opensocial.googleusercontent.com/gadgets/ifr?quot&url=https://sites.google.com/site/v114lr8k/cookieclicker.xml`
   },
      {
     name: `Bottle Flip 3d`,
