@@ -153,23 +153,23 @@ window.addEventListener('keydown', (e) => {
     if (e.key == 'Escape') window.location.replace('https://classroom.google.com/h');
 }, false);
 
-/*let keys = {
-  Control: false,
+let keys = {
+  a: false,
   b: false,
 };
 
 
 addEventListener("keydown", (event) => {
 
-  if (event.key === "Control") {
+  if (event.key === "a") {
     keys.a = true;
   }
   if (event.key === "b") {
     keys.s = true;
   }
 
-if(keys.Control && keys.b){
+if(keys.a && keys.b){
   openBackup()
-}*/
+}
 
 
