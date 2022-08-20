@@ -172,4 +172,11 @@ addEventListener("keydown", (event) => {
   }
 });
 
-
+addEventListener('keyup', (event) => {
+  if (event.key === "a") {
+    keys.a = false;
+  }
+  if (event.key === "b") {
+    keys.b = false;
+  }
+ });
