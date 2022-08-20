@@ -1,4 +1,4 @@
-function cloakTab() {	
+/*function cloakTab() {	
 //make script into comment for testing
 //IM TESTING SORRY IF I FORGOT TO PUT THIS BACK -Bigfoot9999
 	
@@ -88,7 +88,7 @@ function cloakTab() {
 	    }
 	});
 
-};
+};*/
 function openBackup(){
   var tab = window.open('about:blank', '_blank');
   tab.document.documentElement.innerHTML = '<!DOCTYPE html><html><head><title>Classes</title><link rel="icon" type="image/png" href="https://ssl.gstatic.com/classroom/favicon.png"><style>body {margin:0;overflow:hidden}</style></head><body><iframe width="100%" height="100%" src="' + window.location.href + '" frameborder="0"></iframe></body></html>';
