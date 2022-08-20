@@ -167,9 +167,9 @@ addEventListener("keydown", (event) => {
   if (event.key === "b") {
     keys.s = true;
   }
-
-if(keys.a && keys.b){
-  openBackup()
-}
+  if(keys.a && keys.b){
+    openBackup(); 
+  }
+};
 
 
