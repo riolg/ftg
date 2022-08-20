@@ -154,29 +154,35 @@ window.addEventListener('keydown', (e) => {
 }, false);
 
 let keys = {
-  a: false,
-  b: false,
+  Control: false,
+  Shift: false,
+  q: false
 };
 
 
 addEventListener("keydown", (event) => {
-
-  if (event.key === "a") {
-    keys.a = true;
+  if (event.key === "Control") {
+    keys.Control = true;
   }
-  if (event.key === "b") {
-    keys.b = true;
+  if (event.key === "Shift") {
+    keys.Shift = true;
   }
-  if(keys.a && keys.b){
+  if (event.key === "q") {
+  keys.q = true;
+  }
+  if(keys.Control && keys.Shift && keys.q){
     openBackup(); 
   }
 });
 
 addEventListener("keyup", (event) => {
-  if (event.key === "a") {
-    keys.a = false;
+  if (event.key === "Control") {
+    keys.Control = false;
   }
-  if (event.key === "b") {
-    keys.b = false;
+  if (event.key === "Shift") {
+    keys.Shift = false;
+  }
+  if (event.key === "q") {
+  keys.q = false;
   }
  });
