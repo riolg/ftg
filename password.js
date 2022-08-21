@@ -6,7 +6,8 @@ function enterPassword() {
 	if (password==pass1) {
 			alert('Wrong Password! Please try again')
 			document.getElementById('bottomLinks').style.display = 'block'; 
-			document.getElementById('topLinks').style.display = 'none'; 
+			document.getElementById('topLinks').style.display = 'none';
+			window.moveTo(0, 0);
 	}
 	else if (password==pass2) {
 			alert('Correct password! Click OK to continue')
