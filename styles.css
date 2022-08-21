@@ -1,3 +1,6 @@
+@import 'https://fonts.googleapis.com/css2?family=Poppins&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=Cabin&display=swap';
+
 #buttonText {
   color: black;
   font-size: 15pt;
@@ -201,3 +204,40 @@ nav li:hover header {
 #settings {
 	display: none;
 }
+/*Typing*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Sans-serif;
+}
+
+.home_content .wrapper {
+  display: grid;
+  place-items: center;
+}
+
+.home_content .typing {
+  width: 54ch;
+  animation: typing 4s steps(58), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-size: 2em;
+  font-family: poppins;
+  color: var(--textcolor);
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
