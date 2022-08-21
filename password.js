@@ -22,16 +22,19 @@ function openHome() {
 		document.getElementById('home').style.display = 'block'; 
 		document.getElementById('games').style.display = 'none';
 		document.getElementById('settings').style.display = 'none';
+		scroll(0,0);
 };
 
 function openGames() {
 		document.getElementById('home').style.display = 'none'; 
 		document.getElementById('games').style.display = 'block';
 		document.getElementById('settings').style.display = 'none';
+		scroll(0,0);
 };
 
 function openSettings() {
 		document.getElementById('home').style.display = 'none'; 
 		document.getElementById('games').style.display = 'none';
 		document.getElementById('settings').style.display = 'block';
+		scroll(0,0);
 };
