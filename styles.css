@@ -220,7 +220,7 @@ nav li:hover header {
 
 .home_content .typing {
   width: 54ch;
-  animation: typing 4s steps(58), blink .5s step-end infinite alternate;
+  animation: typing 4s steps(32), blink .5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;
