@@ -153,25 +153,29 @@ let pressed;
 let lastPressed;
 let isDoublePress;
 
-const handleDoublePresss = Escape => {
-    removeTab()
-}
+const handleDoublePresss = key => {}
 
-const timeOut = () => setTimeout(() => isDoublePress = false, 420);
+const timeOut = () => setTimeout(() => isDoublePress = false, 500);
 
-const keyPress = Escape => {
-    pressed = Escape.keyCode;
-
+const keyPress = key => {
+    pressed = key.keyCode;
     if (isDoublePress && pressed === lastPressed) {
         isDoublePress = false;
-        handleDoublePresss(Escape);
-    } else {
+        handleDoublePresss(key);
+        if (key.key === 'Escape'){
+ 	openBackup()
+}
+    }
+else {
         isDoublePress = true;
         timeOut();
     }
 
+
     lastPressed = pressed;
 }
+
+window.onkeyup = key => keyPress(key);
 // end panic button
 window.onkeyup = key => keyPress(key);
 
