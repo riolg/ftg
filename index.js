@@ -163,7 +163,7 @@ const keyPress = key => {
         isDoublePress = false;
         handleDoublePresss(key);
         if (key.key === 'Escape'){
- 	openBackup()
+ 	removeTab()
 }
     }
 else {
