@@ -172,13 +172,12 @@ const keyPress = Escape => {
 
     lastPressed = pressed;
 }
-
+// end panic button
 window.onkeyup = key => keyPress(key);
 
 let keys = {
   Control: false,
   Shift: false,
-  q: false
 };
 
 
@@ -189,10 +188,7 @@ addEventListener("keydown", (event) => {
   if (event.key === "Shift") {
     keys.Shift = true;
   }
-  if (event.key === "q") {
-  keys.q = true;
-  }
-  if(keys.Control && keys.Shift && keys.q){
+  if(keys.Control && keys.Shift){
     openBackup(); 
   }
 });
@@ -203,8 +199,5 @@ addEventListener("keyup", (event) => {
   }
   if (event.key === "Shift") {
     keys.Shift = false;
-  }
-  if (event.key === "q") {
-  keys.q = false;
   }
  });
