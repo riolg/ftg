@@ -149,9 +149,31 @@ function searchGames() {
   }
 }
 // panic button
-window.addEventListener('keydown', (e) => {
-    if (e.key == 'Escape') window.location.replace('https://classroom.google.com/h');
-}, false);
+let pressed;
+let lastPressed;
+let isDoublePress;
+
+const handleDoublePresss = Escape => {
+    alert('It worked!')
+}
+
+const timeOut = () => setTimeout(() => isDoublePress = false, 420);
+
+const keyPress = Escape => {
+    pressed = Escape.keyCode;
+
+    if (isDoublePress && pressed === lastPressed) {
+        isDoublePress = false;
+        handleDoublePresss(Escape);
+    } else {
+        isDoublePress = true;
+        timeOut();
+    }
+
+    lastPressed = pressed;
+}
+
+window.onkeyup = key => keyPress(key);
 
 let keys = {
   Control: false,
