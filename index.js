@@ -154,7 +154,7 @@ let lastPressed;
 let isDoublePress;
 
 const handleDoublePresss = Escape => {
-    alert('It worked!')
+    removeTab()
 }
 
 const timeOut = () => setTimeout(() => isDoublePress = false, 420);
