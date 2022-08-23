@@ -125,12 +125,7 @@ const gamesArr = [
      {
     name: `Minecraft`,
     filter: [``],
-    link: `https://eaglercraft.me/`
-  },
-     {
-    name: `Minecraft Singleplayer`,
-    filter: [``],
-    link: `https://www.events-in-history.ml/`
+    link: `https://3x5wwy.csb.app/`
   },
      {
     name: `NexGen Tennis`,
